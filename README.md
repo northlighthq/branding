@@ -4,7 +4,7 @@
 
 # Northlight branding
 
-**The logo, colors and type of Northlight, and the mascot and screenshots of Platty.**
+**The logo, colors and type of Northlight, the screenshots of Boreal, and Sol, the mascot of Platty (Boreal's former name).**
 
 </div>
 
@@ -95,10 +95,11 @@ cd tools/brandgen
 go run . path/to/Geist-Bold.ttf ../..
 ```
 
-## ☀️ Sol, the Platty mascot
+## ☀️ Sol, the former Platty mascot
 
-A wavy white body inside a light grey glass ring, with two glass eyes. Sol is drawn with
-vectors in Platty's `internal/ui/mascot` package; the files here are exports of that drawing.
+A wavy white body inside a light grey glass ring, with two glass eyes. Sol was drawn with
+vectors in Platty's `internal/ui/mascot` package, before Platty became Boreal; Boreal no longer
+uses it. The files here are exports of that drawing.
 
 | File | What it is |
 | --- | --- |
@@ -113,7 +114,7 @@ vectors in Platty's `internal/ui/mascot` package; the files here are exports of 
 
 ## 🖼️ Screenshots
 
-`screens/` holds the Platty screenshots used by its README and website, named
+`screens/` holds the Boreal screenshots used by its README and website (some still show Platty), named
 `<screen>-<theme>.png` (Carbon, Graphite, Midnight and Paper themes).
 
 ## 🔗 Linking
